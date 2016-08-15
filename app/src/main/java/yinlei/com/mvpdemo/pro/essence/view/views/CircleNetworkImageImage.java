@@ -1,4 +1,4 @@
-package yinlei.com.mvpdemo.pro.essence;
+package yinlei.com.mvpdemo.pro.essence.view.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;

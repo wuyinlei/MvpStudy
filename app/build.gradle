@@ -29,4 +29,5 @@ dependencies {
     compile 'com.android.support:design:23.3.0'
     compile 'com.huxq17.xrefreshview:xrefreshview:2.1.9'
     compile files('libs/library-1.0.19.jar')
+    compile 'com.google.code.gson:gson:2.7'
 }

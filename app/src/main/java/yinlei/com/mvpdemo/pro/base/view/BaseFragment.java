@@ -48,7 +48,7 @@ public abstract class BaseFragment<P extends MvpBasePresenter> extends MvpFragme
         }
     }
 
-    private void initData() {
+    public void initData() {
 
     }
 

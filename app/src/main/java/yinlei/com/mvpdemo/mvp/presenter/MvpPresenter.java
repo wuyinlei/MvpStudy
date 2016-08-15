@@ -7,7 +7,7 @@ import yinlei.com.mvpdemo.mvp.view.MvpView;
  *
  * @version V1.0 <描述当前版本功能>
  * @FileName: MvpPresenter.java
- * @author: myName
+ * @author: 若兰明月
  * @date: 2016-08-14 22:55
  */
 

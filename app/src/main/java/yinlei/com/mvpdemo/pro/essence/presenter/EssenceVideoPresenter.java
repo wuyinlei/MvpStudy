@@ -12,7 +12,6 @@ import yinlei.com.mvpdemo.pro.essence.model.EssenceVideoModel;
  * MVP中的P层:处理数据返回之后的逻辑
  * 例如:数据解析等等业务逻辑
  *
- * Created by Dream on 16/5/28.
  */
 public class EssenceVideoPresenter extends BasePresenter<EssenceVideoModel> {
 

@@ -17,9 +17,6 @@ import yinlei.com.mvpdemo.pro.essence.presenter.EssenceVideoPresenter;
 import yinlei.com.mvpdemo.pro.essence.view.adapter.EssenceVideoAdapter;
 
 
-/**
- * Created by Dream on 16/5/27.
- */
 public class EssenceVideoFragment extends BaseFragment {
 
     private int mType = 0;
@@ -36,7 +33,8 @@ public class EssenceVideoFragment extends BaseFragment {
     public void setType(int mType) {
         this.mType = mType;
     }
-    public void setTitle(String title){
+
+    public void setTitle(String title) {
         this.mTitle = title;
     }
 
@@ -94,19 +92,19 @@ public class EssenceVideoFragment extends BaseFragment {
         loadData(true);
     }
 
-    private void loadData(final boolean isDownRefresh){
+    private void loadData(final boolean isDownRefresh) {
         presenter.getEssenceList(mType, isDownRefresh, new BasePresenter.OnUIThreadListener<List<PostsListBean.PostList>>() {
             @Override
             public void onResult(List<PostsListBean.PostList> result) {
-                if (isDownRefresh){
+                if (isDownRefresh) {
                     xRefreshView.stopRefresh();
-                }else{
+                } else {
                     xRefreshView.stopLoadMore();
                 }
-                if (result == null){
-                }else {
+                if (result == null) {
+                } else {
                     //刷新UI
-                    if (isDownRefresh){
+                    if (isDownRefresh) {
                         //如果你是下拉刷新,我就情况列表
                         postList.clear();
                     }

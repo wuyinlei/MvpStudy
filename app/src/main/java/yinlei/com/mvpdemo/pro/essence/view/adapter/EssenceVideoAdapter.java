@@ -21,7 +21,6 @@ import yinlei.com.mvpdemo.pro.essence.view.views.CircleNetworkImageImage;
 /**
  * 显示和缓存数据
  *
- * Created by Dream on 16/5/27.
  */
 public class EssenceVideoAdapter extends BaseRecyclerAdapter<EssenceVideoAdapter.VideoAdapterViewHolder> {
 
